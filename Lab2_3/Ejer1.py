@@ -5,13 +5,13 @@ def desordenada(n):
     na = random.randrange(n)
     #intercambio
     for j in lis:
+        j=j+1
         if j <n:
             c = lis[j]
             lis[j] = lis[na]
             lis[na]=c
         else:
             j=-1
-        
-    print(lis)
+    print(lis[1:n])
 
 desordenada(35)
