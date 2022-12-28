@@ -10,6 +10,7 @@ def desordenada(n):
             c = lis[j]
             lis[j] = lis[na]
             lis[na]=c
+            j=j+2
         else:
             j=-1
     print(lis[1:n])
