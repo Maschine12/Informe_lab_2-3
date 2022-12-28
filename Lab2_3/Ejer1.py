@@ -12,7 +12,6 @@ def desordenada(n):
             lis[na]=c
             j=j+2
         else:
-            j=-1
+            j=0
     print(lis[1:n])
-
 desordenada(35)

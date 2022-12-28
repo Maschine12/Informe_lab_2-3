@@ -11,10 +11,10 @@ def desordenada(n):
             lis[na]=c
             j=j+2
         else:
-            j=-1
+            j=0
     print(lis[1:n])
 for i in range(20):
-    desordenada(35)
+    desordenada(50)
 """
 Al observar dicho algoritmo del ejercicio 1, podemos decir que el resultado del cambio de
 numeros alrededor de una lista es completamente aleatoria, ya que los datos mostrados no llevan 
