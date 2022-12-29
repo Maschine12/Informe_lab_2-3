@@ -2,8 +2,6 @@
 #requeridos por los programas.
 #factorial
 import time
-
-
 def factorial(n):
     r = 1
     i = 2
@@ -16,8 +14,6 @@ def factorial_recursivo(n):
     if n ==0:
         return 1
     return n*factorial_recursivo(n-1)
-
-
 
 inicio = time.time()
 time.sleep(1)
