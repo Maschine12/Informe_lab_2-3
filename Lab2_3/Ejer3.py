@@ -20,3 +20,6 @@ def selectionSort(L):
         
 selectionSort(l)
 
+# no terminado ejercicio 3
+
+
