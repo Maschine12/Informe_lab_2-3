@@ -10,11 +10,12 @@ def factorial(n):
         i +=1
     return r
 def factorial_recursivo(n):
-    #cuando n =0
-    if n ==0:
+    #cuando n = 0
+    if n == 0:
         return 1
     return n*factorial_recursivo(n-1)
 
+#midiendo el tiempo de eejecucion
 inicio = time.time()
 time.sleep(1)
 factorial(200)
@@ -22,7 +23,7 @@ fin = time.time()
 print("Tiempo de ejecucion del factorial no recursivo")
 print((fin-inicio))
 
-
+#midiendo el tiempo de codigo recursivo
 inicio1=time.time()
 time.sleep(1) #nos ayudara a ver de manera mas precisa cual es mas rapido
 factorial_recursivo(200)
