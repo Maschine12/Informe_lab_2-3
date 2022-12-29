@@ -22,7 +22,7 @@ time.sleep(1)
 fibonacci_normal(20)
 fin=time.time()
 print(fin-ini)
-
+#tiempo de ejecucion del recursivo
 inic = time.time()
 time.sleep(1)
 fibonacci_recursivo(20)

@@ -1,3 +1,6 @@
+#Corra el algoritmo anterior “desordena” (del ejercicio 1) muchas veces para la misma
+#sucesión de entrada. ¿Como puede analizarse la salida para determinar si es
+#verdaderamente “aleatorio”?
 import random
 def desordenada(n):
     lis=[i for i in range(n)]
